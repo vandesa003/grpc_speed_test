@@ -1,0 +1,14 @@
+syntax = "proto3";
+package test;
+
+service SpeedTest {
+    rpc work (Request) returns (Reply) {}
+}
+
+message Request {
+    bytes image = 1;
+}
+
+message Reply {
+    string ret = 1;
+}

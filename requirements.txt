@@ -1,0 +1,5 @@
+numpy==1.16.4
+requests==2.6.1
+grpcio==1.30.0
+grpcio-tools==1.30.0
+opencv-python==4.1.1.26
